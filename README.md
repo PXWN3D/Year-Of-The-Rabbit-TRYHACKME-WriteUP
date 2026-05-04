@@ -450,21 +450,6 @@ The room is especially good for practicing:
 
 ---
 
-## Suggested Image Names
-
-images/
-├── year-of-the-rabbit-banner.png
-├── 01-nmap-scan.png
-├── 02-http-clue.png
-├── 03-image-analysis.png
-├── 04-ftp-access.png
-├── 05-brainfuck.png
-├── 06-gwendoline.png
-└── 07-privesc.png
-```
-
----
-
 ## Author
 
 Write-up by **[PXWN3D]**
