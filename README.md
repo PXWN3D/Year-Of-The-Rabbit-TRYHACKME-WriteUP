@@ -1,7 +1,5 @@
 # Year of the Rabbit - TryHackMe Write-up
 
-![Year of the Rabbit Banner](images/year-of-the-rabbit-banner.png)
-
 > **Room:** Year of the Rabbit  
 > **Platform:** TryHackMe  
 > **Difficulty:** Easy  
