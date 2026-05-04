@@ -60,7 +60,6 @@ Three services were exposed:
 At this stage, SSH was not immediately useful because I had no credentials.  
 The most interesting starting point was therefore the web service on port 80.
 
-![Nmap Scan](images/01-nmap-scan.png)
 
 ---
 
@@ -92,7 +91,6 @@ Instead of following the Rickroll in the browser, inspecting the headers reveale
 
 This step shows the importance of checking **HTTP headers** and not trusting only what is rendered in the browser.
 
-![HTTP Clue](images/02-http-clue.png)
 
 ---
 
@@ -142,7 +140,6 @@ Below that message was a list of candidate passwords.
 `strings` extracts readable ASCII text from binary files.  
 In CTFs, files such as images often contain hidden content appended to the file or embedded somewhere in the binary.
 
-![Hot_Babe.png Analysis](images/03-image-analysis.png)
 
 ---
 
@@ -193,7 +190,6 @@ Then I downloaded the available file:
 get "Eli's_Creds.txt"
 ```
 
-![FTP Access](images/04-ftp-access.png)
 
 ---
 
@@ -242,7 +238,6 @@ I then logged in through SSH:
 ssh eli@<TARGET_IP>
 ```
 
-![Brainfuck Decoding](images/05-brainfuck.png)
 
 ---
 
@@ -301,7 +296,6 @@ cd /home/gwendoline
 cat user.txt
 ```
 
-![User Pivot](images/06-gwendoline.png)
 
 ---
 
@@ -349,7 +343,6 @@ And finally grabbed the root flag:
 cat /root/root.txt
 ```
 
-![Privilege Escalation](images/07-privesc.png)
 
 ---
 
